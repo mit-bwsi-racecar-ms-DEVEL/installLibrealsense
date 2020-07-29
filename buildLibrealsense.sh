@@ -81,7 +81,7 @@ cd $LIBREALSENSE_DIRECTORY
 git checkout $LIBREALSENSE_VERSION
 
 # Eyassu's hack to get pyrealsense2 built
-git checkout v2.34.0 wrappers/python/CMakeList.txt
+git checkout v2.34.0 -- wrappers/python/CMakeList.txt
 
 # Now compile librealsense and install
 mkdir build 
